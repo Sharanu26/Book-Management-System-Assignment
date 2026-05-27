@@ -81,7 +81,7 @@ const Home = () => {
       book.author.toLowerCase().includes(search.toLowerCase());
 
     const matchesGenre =
-      genre === "" || book.genre === genre;
+    genre === "" ||  book.genre.toLowerCase() === genre.toLowerCase();
 
     return matchesSearch && matchesGenre;
   });
