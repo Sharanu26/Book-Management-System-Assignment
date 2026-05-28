@@ -21,7 +21,6 @@ https://book-management-system-assignment-4.onrender.com
 - Edit existing books
 - Delete books
 - Genre filtering
-- Pagination
 - Responsive UI
 
 ---
